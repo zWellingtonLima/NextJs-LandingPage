@@ -19,6 +19,7 @@ module.exports = {
   ],
   rules: {
     'react/no-unescaped-entities': 0,
+    'quotes': [2, 'single', , { "avoidEscape": true }],
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
     'react/jsx-first-prop-new-line': 0,
